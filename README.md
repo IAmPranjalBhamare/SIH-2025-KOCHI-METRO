@@ -1,11 +1,25 @@
 
   # Kochi Metro Decision Support Dashboard
 
-  This is a code bundle for Kochi Metro Decision Support Dashboard. The original project is available at https://www.figma.com/design/bo1ZON0Bbwxo5ZG6SnLXNd/Kochi-Metro-Decision-Support-Dashboard.
+  # Kochi Metro Decision Support Dashboard
 
-  ## Running the code
+A complete React + Vite + TypeScript dashboard for Kochi Metro operations, engineered for AI-guided fleet health, maintenance planning, and workforce gamification.
 
-  Run `npm i` to install the dependencies.
+## Highlights
 
-  Run `npm run dev` to start the development server.
-  
+- 🚀 Vite fast builds + HMR
+- 🧩 Radix UI + custom component library (`src/components/ui`)
+- 📊 Dashboards for real-time KPIs, charts, and predictive alerts
+- 🛠 Multi-user flows (admin, operator, worker)
+- 🤖 Intelligence modules: Predictive maintenance, Job Card AI
+
+  #🔧 Project setup
+  # Clone repo
+git clone https://github.com/IAmPranjalBhamare/SIH-2025-KOCHI-METRO.git
+cd SIH_2025
+
+# Install deps
+npm install
+
+# Run dev server
+npm run dev
