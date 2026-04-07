@@ -1,25 +1,50 @@
+# Kochi Metro Decision Support Dashboard
 
-  # Kochi Metro Decision Support Dashboard
+A modern React + TypeScript dashboard for Kochi Metro operations, built with Vite.  
+Provides fleet monitoring, maintenance planning, worker motivation, and AI-powered decision support.
 
-  # Kochi Metro Decision Support Dashboard
+---
 
-A complete React + Vite + TypeScript dashboard for Kochi Metro operations, engineered for AI-guided fleet health, maintenance planning, and workforce gamification.
+## 🚀 Project Summary
 
-## Highlights
+Kochi Metro Decision Support Dashboard is a complete front-end system with:
 
-- 🚀 Vite fast builds + HMR
-- 🧩 Radix UI + custom component library (`src/components/ui`)
-- 📊 Dashboards for real-time KPIs, charts, and predictive alerts
-- 🛠 Multi-user flows (admin, operator, worker)
-- 🤖 Intelligence modules: Predictive maintenance, Job Card AI
+- Admin and worker login flows
+- Fleet overview, trainset details, and maintenance scheduling
+- Decision support UI panel
+- Goal-based worker dashboards and gamification
+- Multi-language support (language selector)
+- Reusable UI component library (`src/components/ui/*`)
+- AI/unique features modules in `src/components/unique-features/*`
+- Production site output in `build/`
 
-  #🔧 Project setup
-  # Clone repo
-git clone https://github.com/IAmPranjalBhamare/SIH-2025-KOCHI-METRO.git
-cd SIH_2025
+---
 
-# Install deps
+## 🧩 Tech Stack
+
+- React 18
+- TypeScript
+- Vite
+- CSS + custom UI components
+- Google auth + custom login modules
+- Build output: `build/`
+
+---
+
+## 📁 Folder Structure
+
+- `src/main.tsx` & `src/App.tsx` — app bootstrap
+- `src/components/` — feature modules (AdminLogin, Dashboard, WorkerDashboard, etc.)
+- `src/components/ui/` — shared components (button, card, table, dialog, etc.)
+- `src/components/unique-features/` — AI-enabled features
+- `src/contexts/LanguageContext.tsx` — language context
+- `src/styles/globals.css` — global styles
+- `src/tsconfig.json` / `vite.config.ts` — build config
+
+---
+
+## ▶️ Setup
+
+```bash
 npm install
-
-# Run dev server
 npm run dev
