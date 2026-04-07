@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { motion, AnimatePresence } from "motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { LandingPage } from "./components/LandingPage";
 import { LoginTypeSelector } from "./components/LoginTypeSelector";
 import { GoogleAuthLogin } from "./components/GoogleAuthLogin";

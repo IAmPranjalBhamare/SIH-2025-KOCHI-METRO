@@ -6,7 +6,7 @@ import { LanguageSelector } from './LanguageSelector';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Train, Shield, Wrench, Calendar, Zap, MapPin, ArrowLeft, Users } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface WorkerLoginSelectorProps {
   onSelectCategory: (category: string) => void;

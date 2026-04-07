@@ -25,7 +25,7 @@ import {
   Clock,
   Star
 } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface KochiMetroLoginProps {
   onLogin: (userType: string, category?: string, userEmail?: string) => void;

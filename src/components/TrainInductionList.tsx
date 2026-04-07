@@ -4,7 +4,7 @@ import { Badge } from './ui/badge';
 import { Progress } from './ui/progress';
 import { Alert, AlertDescription } from './ui/alert';
 import { Button } from './ui/button';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { 
   Train, 
   CheckCircle, 

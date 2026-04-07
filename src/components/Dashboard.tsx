@@ -4,7 +4,7 @@ import { Button } from './ui/button';
 import { Badge } from './ui/badge';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import { Progress } from './ui/progress';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { 
   Train, 
   Shield, 

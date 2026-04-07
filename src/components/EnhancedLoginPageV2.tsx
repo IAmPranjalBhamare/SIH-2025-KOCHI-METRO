@@ -9,7 +9,7 @@ import { LanguageSelector } from './LanguageSelector';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Train, Shield, Users, Wrench, Calendar, Zap, MapPin, Waves, Palmtree, Brain, Star, Lock, ArrowLeft, Eye, EyeOff, Sparkles, Clock, Building, User } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface EnhancedLoginPageProps {
   onLogin: (userType: string, category?: string) => void;

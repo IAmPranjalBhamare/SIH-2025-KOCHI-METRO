@@ -8,7 +8,7 @@ import { LanguageSelector } from '../LanguageSelector';
 import { useLanguage } from '../../contexts/LanguageContext';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
 import { Train, ArrowLeft, Mail, CheckCircle, XCircle, AlertTriangle, Lock, Eye, EyeOff, User, Clock } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface MileageBalancingLoginProps {
   onLogin: (userType: string, category?: string, userEmail?: string) => void;

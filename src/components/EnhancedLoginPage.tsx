@@ -7,7 +7,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '.
 import { Badge } from './ui/badge';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Train, Shield, Users, Wrench, Calendar, Zap, MapPin, Waves, Palmtree, Brain, Sparkles, Lock, ArrowLeft, Eye, EyeOff } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface EnhancedLoginPageProps {
   onLogin: (userType: string, category?: string) => void;

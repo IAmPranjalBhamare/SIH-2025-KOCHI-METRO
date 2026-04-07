@@ -9,7 +9,7 @@ import { LanguageSelector } from './LanguageSelector';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Shield, ArrowLeft, Mail, Lock, AlertCircle, CheckCircle } from 'lucide-react';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import { toast } from 'sonner@2.0.3';
 
 interface AdminLoginProps {

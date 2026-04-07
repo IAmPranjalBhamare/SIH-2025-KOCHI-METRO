@@ -9,7 +9,7 @@ import { LanguageSelector } from './LanguageSelector';
 import { useLanguage } from '../contexts/LanguageContext';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import { Train, Shield, Users, ArrowLeft, Mail, CheckCircle, XCircle, AlertTriangle, Sparkles, Lock, Eye, EyeOff, User, Building, Clock, Briefcase } from 'lucide-react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 interface GoogleAuthLoginProps {
   onLogin: (userType: string, category?: string, userEmail?: string) => void;
