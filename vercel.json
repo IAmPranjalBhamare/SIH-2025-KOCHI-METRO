@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
-    }
-  ],
   "buildCommand": "npm ci && npm run build",
   "installCommand": "npm ci --legacy-peer-deps",
   "outputDirectory": "build",
