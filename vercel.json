@@ -5,5 +5,7 @@
       "src": "/(.*)",
       "dest": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "npm install && npm run build",
+  "installCommand": "npm install --legacy-peer-deps"
 }
